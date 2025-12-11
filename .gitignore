@@ -1,0 +1,23 @@
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven/Gradle
+target/
+build/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Application secrets
+application-dev.yml
+application-prod.yml
+src/main/resources/application-dev.yml
+src/main/resources/application-prod.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
